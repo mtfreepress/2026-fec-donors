@@ -148,6 +148,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+# Local secrets (keep .env.example committed)
 .env
 .envrc
 .venv
@@ -216,3 +217,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded and generated FEC data
+data/raw/
+data/intermediate/
+data/output/
